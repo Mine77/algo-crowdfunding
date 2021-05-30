@@ -29,5 +29,5 @@ def escrow(app_id):
     )
 
 with open('escrow.teal', 'w') as f:
-    compiled = compileTeal(escrow(1), Mode.Application, version = 3)
+    compiled = compileTeal(escrow(15987743), Mode.Application, version = 3)
     f.write(compiled)
