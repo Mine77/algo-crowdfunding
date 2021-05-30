@@ -1,0 +1,4 @@
+#pragma version 3
+// always approve close
+int 1
+return
